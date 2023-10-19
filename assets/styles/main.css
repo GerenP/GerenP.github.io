@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+:root {
+  --primary: #00c8eb;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: var(--primary);
+  /* display: inline; */
+}
+.about h2 {
+  color: var(--primary);
+}
+.education h2 {
+  color: var(--primary);
+}
+.skill h2 {
+  color: var(--primary);
+}
+.language h2 {
+  color: var(--primary);
+}
+.profile {
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+
+h4, h1{
+  padding: 0;
+  margin: 0;
+}
+
+article{
+  padding: 5px 20px;
+  margin: 20px;
+  height: 300px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* height: 100vh; */
+}
+
+
+nav{
+  background-color: rgb(58, 25, 155);
+  padding: 20px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  font-weight: bold;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+  list-style-type: none;
+}
